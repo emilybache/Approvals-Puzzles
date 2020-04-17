@@ -28,16 +28,21 @@ dad_jokes = ["How do you make holy water? You boil the hell out of it.",
              ]
 
 
-def main():
+def main(sleeptime):
     for response in responses:
         joke_nr = random.randint(0, len(dad_jokes)-1)
         joke = dad_jokes[joke_nr]
         print(f"DAD: {joke}")
-        time.sleep(1)
+        time.sleep(sleeptime)
         del dad_jokes[joke_nr]
         print(f"ME: {response}")
-        time.sleep(1)
+        time.sleep(sleeptime)
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if len(sys.argv) > 1:
+        sleeptime = int(sys.argv[1])
+    else:
+        sleeptime = 2
+    main(sleeptime)
