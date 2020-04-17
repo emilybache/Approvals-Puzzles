@@ -32,7 +32,7 @@ questions = {"The world is flat" : False,
              "The moon is made of cheese" : False,
              "Antarctica is colder on average than Africa": True,
              "Jupiter is the biggest planet in the solar system": True,
-             "The longest river on Earth is the Nile": True,
+             "The longest river on Earth is the Nile or the Amazon": True,
              "Gambia is in South America": False,
              "Mt Everest is the highest mountain in the world": True,
              }
@@ -42,7 +42,7 @@ def main():
     logger = init_logging()
     for q, a in questions.items():
         logger.info("asking question '%s'", q)
-        response = input(q + "\nTrue or False?\n")
+        response = input(q + "\nTrue or False? (please write your answer as T or F)\n")
         if response.upper() == "TRUE" or response.upper() == "T":
             b = True
         elif response.upper() == "FALSE" or response.upper() == "F":
