@@ -1,10 +1,12 @@
 import random
 import time
 
-responses = ["LOL!",
+responses = ["ROFL!",
+             "LOL",
              "Chuckle",
              "That's an old one!",
              "I think I heard that one before",
+             "Ha ha",
              "Really?",
              "Groan...",
              "Yeah whatever...",
@@ -24,7 +26,7 @@ dad_jokes = ["How do you make holy water? You boil the hell out of it.",
              "What do you call a dog that can do magic? A Labracadabrador.",
              "What do you call a deer with no eyes? No idea!",
              "When a dad drives past a cow pasture: LOOK! That cow is OUT-STANDING in his field!",
-             "When you ask a dad if he's alright: 'No, I’m half left.'",
+             "When you ask a dad if he's alright: 'No, I'm half left.'",
              ]
 
 
