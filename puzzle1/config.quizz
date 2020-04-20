@@ -1,0 +1,12 @@
+# Full path to the System Under Test (or Java Main Class name)
+executable:${TEXTTEST_CHECKOUT}/puzzle1/quizz.py
+
+# Naming scheme to use for files for stdin,stdout and stderr
+filename_convention_scheme:standard
+
+# Expanded name to use for application
+full_name:quizz
+
+[run_dependent_text]
+stderr:"unix_time":[\d\.]+{REPLACE "unix_time":"time"}
+stderr:"time":"[\d\.\-:,\s]+"{REPLACE "time":"time"}

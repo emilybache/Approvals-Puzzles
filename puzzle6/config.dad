@@ -1,0 +1,10 @@
+executable:/${TEXTTEST_CHECKOUT}/puzzle6/dad_jokes.py
+
+# Naming scheme to use for files for stdin,stdout and stderr
+filename_convention_scheme:standard
+
+# Expanded name to use for application
+full_name:dad jokes
+
+[unordered_text]
+stdout:DAD:.*
