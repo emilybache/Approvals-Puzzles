@@ -1,5 +1,6 @@
 # Full path to the System Under Test (or Java Main Class name)
 executable:${TEXTTEST_HOME}/puzzle1/quizz.py
+interpreter:python3
 
 # Naming scheme to use for files for stdin,stdout and stderr
 filename_convention_scheme:standard

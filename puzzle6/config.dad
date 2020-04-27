@@ -1,4 +1,5 @@
 executable:${TEXTTEST_HOME}/puzzle6/dad_jokes.py
+interpreter:python3
 
 # Naming scheme to use for files for stdin,stdout and stderr
 filename_convention_scheme:standard
