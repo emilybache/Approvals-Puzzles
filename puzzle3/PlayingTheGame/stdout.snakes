@@ -1,0 +1,844 @@
+
+    Welcome to Snake and Ladder Game.
+    Version: 1.0.0
+    Developed by: https://www.pythoncircle.com
+    
+    Rules:
+      1. Initally both the players are at starting position i.e. 0. 
+         Take it in turns to roll the dice. 
+         Move forward the number of spaces shown on the dice.
+      2. If you lands at the bottom of a ladder, you can move up to the top of the ladder.
+      3. If you lands on the head of a snake, you must slide down to the bottom of the snake.
+      4. The first player to get to the FINAL position is the winner.
+      5. Hit enter to roll the dice.
+    
+    
+Please enter a valid name for first player: Please enter a valid name for second player: 
+Match will be played between 'Susan' and 'Miranda'
+
+
+Susan: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+
+Susan moved from 0 to 6
+
+WOOHOO ########
+
+Susan climbed the ladder from 6 to 14
+
+Miranda: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Miranda moving....
+
+Miranda moved from 0 to 3
+
+WOWW ########
+
+Miranda climbed the ladder from 3 to 20
+
+Susan: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Susan moving....
+
+Susan moved from 14 to 19
+
+Miranda: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 20 to 22
+
+NAILED IT ########
+
+Miranda climbed the ladder from 22 to 37
+
+Susan: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Susan moving....
+
+Susan moved from 19 to 23
+
+Miranda: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Miranda moving....
+
+Miranda moved from 37 to 42
+
+Susan:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Susan moving....
+
+Susan moved from 23 to 25
+
+Miranda: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Miranda moving....
+
+Miranda moved from 42 to 47
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Susan moving....
+
+Susan moved from 25 to 28
+
+Miranda:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Miranda moving....
+
+Miranda moved from 47 to 53
+
+Susan: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Susan moving....
+
+Susan moved from 28 to 33
+
+Miranda:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Miranda moving....
+
+Miranda moved from 53 to 57
+
+YAAYYY ########
+
+Miranda climbed the ladder from 57 to 76
+
+Susan: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Susan moving....
+
+Susan moved from 33 to 35
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 76 to 78
+
+Susan:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Susan moving....
+
+Susan moved from 35 to 36
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Miranda moving....
+
+Miranda moved from 78 to 81
+
+NAILED IT ########
+
+Miranda climbed the ladder from 81 to 98
+
+Susan: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Susan moving....
+
+Susan moved from 36 to 40
+
+Miranda: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 98 to 99
+
+DANG ~~~~~~~~>
+
+Miranda got a snake bite. Down from 99 to 63
+
+Susan:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+
+Susan moved from 40 to 46
+
+Miranda: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 63 to 64
+
+Susan: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+
+Susan moved from 46 to 52
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Miranda moving....
+
+Miranda moved from 64 to 69
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Susan moving....
+
+Susan moved from 52 to 55
+
+Miranda: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Miranda moving....
+
+Miranda moved from 69 to 75
+
+OH NO ~~~~~~~~>
+
+Miranda got a snake bite. Down from 75 to 28
+
+Susan: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+
+Susan moved from 55 to 61
+
+YAAYYY ########
+
+Susan climbed the ladder from 61 to 78
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Miranda moving....
+
+Miranda moved from 28 to 34
+
+Susan: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Susan moving....
+
+Susan moved from 78 to 80
+
+Miranda: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Miranda moving....
+
+Miranda moved from 34 to 39
+
+SNAKE BITE ~~~~~~~~>
+
+Miranda got a snake bite. Down from 39 to 5
+
+Susan: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Susan moving....
+
+Susan moved from 80 to 82
+
+Miranda: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Miranda moving....
+
+Miranda moved from 5 to 9
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+
+Susan moved from 82 to 88
+
+YAAYYY ########
+
+Susan climbed the ladder from 88 to 91
+
+Miranda:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 9 to 11
+
+NAILED IT ########
+
+Miranda climbed the ladder from 11 to 28
+
+Susan: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Susan moving....
+
+Susan moved from 91 to 95
+
+Miranda: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 28 to 30
+
+Susan: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Susan moving....
+
+Susan moved from 95 to 97
+
+SNAKE BITE ~~~~~~~~>
+
+Susan got a snake bite. Down from 97 to 87
+
+Miranda: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 30 to 32
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Susan moving....
+
+Susan moved from 87 to 90
+
+DANG ~~~~~~~~>
+
+Susan got a snake bite. Down from 90 to 48
+
+Miranda: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 32 to 34
+
+Susan: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Susan moving....
+
+Susan moved from 48 to 51
+
+BOOHOO ~~~~~~~~>
+
+Susan got a snake bite. Down from 51 to 6
+
+Miranda: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 34 to 35
+
+Susan:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Susan moving....
+
+Susan moved from 6 to 10
+
+Miranda: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Miranda moving....
+
+Miranda moved from 35 to 39
+
+BUMMER ~~~~~~~~>
+
+Miranda got a snake bite. Down from 39 to 5
+
+Susan: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+
+Susan moved from 10 to 16
+
+Miranda: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 5 to 7
+
+Susan:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Susan moving....
+
+Susan moved from 16 to 21
+
+Miranda: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Miranda moving....
+
+Miranda moved from 7 to 11
+
+YAAYYY ########
+
+Miranda climbed the ladder from 11 to 28
+
+Susan: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Susan moving....
+
+Susan moved from 21 to 22
+
+OH MY GOD... ########
+
+Susan climbed the ladder from 22 to 37
+
+Miranda: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Miranda moving....
+
+Miranda moved from 28 to 33
+
+Susan: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Susan moving....
+
+Susan moved from 37 to 42
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Miranda moving....
+
+Miranda moved from 33 to 36
+
+Susan:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+
+Susan moved from 42 to 48
+
+Miranda: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Miranda moving....
+
+Miranda moved from 36 to 41
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Susan moving....
+
+Susan moved from 48 to 49
+
+OH MY GOD... ########
+
+Susan climbed the ladder from 49 to 67
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Miranda moving....
+
+Miranda moved from 41 to 44
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Susan moving....
+
+Susan moved from 67 to 69
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 44 to 46
+
+Susan: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Susan moving....
+
+Susan moved from 69 to 71
+
+Miranda: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 46 to 47
+
+Susan: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+
+Susan moved from 71 to 77
+
+Miranda: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 47 to 49
+
+WOOHOO ########
+
+Miranda climbed the ladder from 49 to 67
+
+Susan:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Susan moving....
+
+Susan moved from 77 to 81
+
+WOWW ########
+
+Susan climbed the ladder from 81 to 98
+
+Miranda: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 67 to 68
+
+Susan: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Susan moving....
+You need 2 to win this game. Keep trying.
+
+Miranda: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 68 to 69
+
+Susan: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Susan moving....
+You need 2 to win this game. Keep trying.
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 69 to 71
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Susan moving....
+
+Susan moved from 98 to 99
+
+SNAKE BITE ~~~~~~~~>
+
+Susan got a snake bite. Down from 99 to 63
+
+Miranda: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 71 to 73
+
+OH MY GOD... ########
+
+Miranda climbed the ladder from 73 to 86
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Susan moving....
+
+Susan moved from 63 to 65
+
+Miranda: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Miranda moving....
+
+Miranda moved from 86 to 92
+
+DANG ~~~~~~~~>
+
+Miranda got a snake bite. Down from 92 to 25
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Susan moving....
+
+Susan moved from 65 to 69
+
+Miranda: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Miranda moving....
+
+Miranda moved from 25 to 31
+
+Susan: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Susan moving....
+
+Susan moved from 69 to 72
+
+Miranda: Your turn. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 31 to 32
+
+Susan:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Susan moving....
+
+Susan moved from 72 to 76
+
+Miranda:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 2
+Miranda moving....
+
+Miranda moved from 32 to 34
+
+Susan:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Susan moving....
+
+Susan moved from 76 to 81
+
+YAAYYY ########
+
+Susan climbed the ladder from 81 to 98
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Miranda moving....
+
+Miranda moved from 34 to 40
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Susan moving....
+You need 2 to win this game. Keep trying.
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Miranda moving....
+
+Miranda moved from 40 to 43
+
+Susan: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Susan moving....
+You need 2 to win this game. Keep trying.
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Miranda moving....
+
+Miranda moved from 43 to 48
+
+Susan: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+You need 2 to win this game. Keep trying.
+
+Miranda:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 48 to 49
+
+NAILED IT ########
+
+Miranda climbed the ladder from 49 to 67
+
+Susan: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Susan moving....
+
+Susan moved from 98 to 99
+
+SNAKE BITE ~~~~~~~~>
+
+Susan got a snake bite. Down from 99 to 63
+
+Miranda: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 5
+Miranda moving....
+
+Miranda moved from 67 to 72
+
+Susan: Are you ready? Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Susan moving....
+
+Susan moved from 63 to 64
+
+Miranda:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 72 to 73
+
+WOWW ########
+
+Miranda climbed the ladder from 73 to 86
+
+Susan: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+
+Susan moved from 64 to 70
+
+Miranda:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 86 to 87
+
+Susan: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Susan moving....
+
+Susan moved from 70 to 76
+
+Miranda: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Miranda moving....
+
+Miranda moved from 87 to 93
+
+Susan: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Susan moving....
+
+Susan moved from 76 to 80
+
+Miranda: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 4
+Miranda moving....
+
+Miranda moved from 93 to 97
+
+DANG ~~~~~~~~>
+
+Miranda got a snake bite. Down from 97 to 87
+
+Susan: Please proceed. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Susan moving....
+
+Susan moved from 80 to 83
+
+OH NO ~~~~~~~~>
+
+Susan got a snake bite. Down from 83 to 45
+
+Miranda: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Miranda moving....
+
+Miranda moved from 87 to 88
+
+NAILED IT ########
+
+Miranda climbed the ladder from 88 to 91
+
+Susan: Lets win this. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Susan moving....
+
+Susan moved from 45 to 46
+
+Miranda: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 3
+Miranda moving....
+
+Miranda moved from 91 to 94
+
+Susan: Go. Hit the enter to roll dice: 
+Rolling dice...
+Its a 1
+Susan moving....
+
+Susan moved from 46 to 47
+
+Miranda:  Hit the enter to roll dice: 
+Rolling dice...
+Its a 6
+Miranda moving....
+
+Miranda moved from 94 to 100
+
+
+
+Thats it.
+
+Miranda won the game.
+Congratulations Miranda
+
+Thank you for playing the game. Please visit https://www.pythoncircle.com
+
+
