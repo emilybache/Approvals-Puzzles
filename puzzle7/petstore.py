@@ -1,4 +1,5 @@
 import json
+from urllib.request import urlopen
 
 swagger_json = """{
   "swagger": "2.0",
@@ -71,7 +72,15 @@ swagger_json = """{
 
 
 def main():
-    swagger = json.loads(swagger_json)
+    try:
+        url = "http://petstore.swagger.io/v2/swagger.json"
+        response = urlopen(url)
+        swagger = response.read().decode("utf-8")
+    except Exception as e:
+        import traceback, sys
+        traceback.print_exc(file=sys.stdout)
+        # This code is the fallback option for when we can't get the actual json off the url above
+        swagger = json.loads(swagger_json)
     print(json.dumps(swagger))
 
 if __name__ == "__main__":
