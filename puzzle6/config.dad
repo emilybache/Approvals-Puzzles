@@ -1,4 +1,4 @@
-executable:/${TEXTTEST_CHECKOUT}/puzzle6/dad_jokes.py
+executable:${TEXTTEST_HOME}/puzzle6/dad_jokes.py
 
 # Naming scheme to use for files for stdin,stdout and stderr
 filename_convention_scheme:standard

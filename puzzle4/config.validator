@@ -1,5 +1,5 @@
 # Full path to the System Under Test (or Java Main Class name)
-executable:${TEXTTEST_CHECKOUT}/puzzle4/credit_card_validator.py
+executable:${TEXTTEST_HOME}/puzzle4/credit_card_validator.py
 
 # Naming scheme to use for files for stdin,stdout and stderr
 filename_convention_scheme:standard
