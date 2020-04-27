@@ -191,4 +191,5 @@ if __name__ == "__main__":
     seed = time.time()
     if len(sys.argv) > 1:
         seed = int(sys.argv[1])
+        SLEEP_BETWEEN_ACTIONS = 0
     start(seed)
