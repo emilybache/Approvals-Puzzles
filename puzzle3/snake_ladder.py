@@ -156,7 +156,8 @@ def check_win(player_name, position):
         sys.exit(1)
 
 
-def start():
+def start(seed):
+    random.seed(seed)
     welcome_msg()
     time.sleep(SLEEP_BETWEEN_ACTIONS)
     player1_name, player2_name = get_player_names()
@@ -187,4 +188,7 @@ def start():
 
 
 if __name__ == "__main__":
-    start()
+    seed = time.time()
+    if len(sys.argv) > 1:
+        seed = int(sys.argv[1])
+    start(seed)
