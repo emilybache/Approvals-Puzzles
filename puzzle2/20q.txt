@@ -1,0 +1,1 @@
+[["Does it quack?", "duck", 1], ["Is it furry?", 2, 4], ["Does it bark?", "Dog", 3], ["Does it have long thin ears?", "Rabbit", "Cat"], ["Does it have a long swishy tail?", "Horse", 5], ["Does it fly?", "Parrot", "pig"]]
