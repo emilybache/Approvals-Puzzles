@@ -8,15 +8,8 @@ filename_convention_scheme:standard
 # Expanded name to use for application
 full_name:Petstore
 
-[view_program]
-config:subl
-stdin:subl
-stdout:subl
-options:subl
-
 [collate_file]
-stdout:swagger_json
-swagger_json:stdout
+swagger_json:stdout*
 
 [collate_script]
 swagger_json:python3 -m json.tool
