@@ -1,0 +1,5 @@
+585 found mine at (0, 0)
+585 found mine at (2, 1)
+585 found mine at (0, 0)
+585 found mine at (0, 1)
+585 found mine at (2, 1)
