@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 #
 # Text based snake and ladder game
 # Author - https://www.pythoncircle.com
