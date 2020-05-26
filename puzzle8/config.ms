@@ -1,5 +1,5 @@
 # Full path to the System Under Test (or Java Main Class name)
-executable:${TEXTTEST_HOME}/minesweeper.py
+executable:${TEXTTEST_HOME}/puzzle8/minesweeper.py
 
 # Naming scheme to use for files for stdin,stdout and stderr
 filename_convention_scheme:standard
