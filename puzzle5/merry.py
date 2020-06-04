@@ -1,9 +1,57 @@
 #
 # Python script to wish Merry Christmas using turtle.
 # Author - Anurag Rana
-# 
+#
+
 from turtle import *
 from random import randint
+
+###
+# Added for approval testing purposes
+TESTMODE = False
+import random
+from sys import argv
+
+if len(argv) == 2 and argv[1] == "test":
+    print("Running program in test mode.")
+    TESTMODE = True
+    random.seed(1)
+    RETURN_VALUE = 1000
+    from pprint import pformat
+
+    def generate_class(name):
+        class FakeClass:
+            def __getattr__(self, attr):
+                def fn(*args, **kwargs):
+                    arglist = pformat(args)[1:-2]
+                    kwarglist = pformat(kwargs)
+                    vars = locals()
+                    vars["name"] = name
+                    vars["attr"] = attr
+                    fmtstr = "{name}.{attr}()"
+                    if args and kwargs:
+                        fmtstr = "{name}.{attr}({arglist}, {kwarglist})"
+                    elif args:
+                        fmtstr = "{name}.{attr}({arglist})"
+                    elif kwargs:
+                        fmtstr = "{name}.{attr}({kwarglist})"
+                    print(fmtstr.format(**vars))
+                    global RETURN_VALUE
+                    RETURN_VALUE += 10
+                    return RETURN_VALUE
+
+                return fn
+
+        return FakeClass
+
+    FakeScreen = generate_class("screen")
+    Turtle = generate_class("turtle")
+
+# Added for approval testing purposes
+###
+
+if not TESTMODE:
+    from turtle import *
 
 
 def create_rectangle(turtle, color, x, y, width, height):
@@ -43,11 +91,18 @@ def create_circle(turtle, x, y, radius, color):
 BG_COLOR = "#0080ff"
 
 # 'Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.'
-# 	                                                    — Oogway to Po under the peach tree, Kung Fu Panda
+# 	                                                 - Oogway to Po under the peach tree, Kung Fu Panda
 oogway = Turtle()
 # set turtle speed
 oogway.speed(2)
-screen = oogway.getscreen()
+
+## <-- APPROVAL TEST RIGGING
+def get_screen(turtle):
+    return turtle.getscreen() if not TESTMODE else FakeScreen()
+## -->
+
+screen = get_screen(oogway)
+
 # set background color
 screen.bgcolor(BG_COLOR)
 # set tile of screen
