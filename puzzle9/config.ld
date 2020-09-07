@@ -8,15 +8,3 @@ filename_convention_scheme:standard
 # Expanded name to use for application
 full_name:Log Dump
 
-copy_test_path:logs
-
-[collate_file]
-dump:logs.tar.gz
-[end]
-
-[collate_script]
-dump:${TEXTTEST_HOME}/puzzle9/read_dump.py
-[end]
-
-[run_dependent_text]
-dump:{INTERNAL writedir}
