@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+import sys
+import tarfile
+
+
+def main(args):
+    dump_name = args[0]
+    print("found dump: ", dump_name)
+    with tarfile.open("logs.tar.gz", "r") as f:
+        print("mode", "name", "size", "type")
+        for entry in f.getmembers():
+            print(entry.mode, entry.name, entry.size, entry.type)
+
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
