@@ -10,6 +10,9 @@ full_name:Petstore
 discard_file:stdout
 discard_file:stderr
 
+copy_test_path:curl
+copy_test_path:stub_swagger.json
+
 [collate_file]
 swagger_json:stdout*
 
