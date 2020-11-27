@@ -7,11 +7,12 @@ filename_convention_scheme:standard
 
 # Expanded name to use for application
 full_name:Petstore
+
+import_config_file:capturemock_config
+
 discard_file:stdout
 discard_file:stderr
 
-copy_test_path:curl
-copy_test_path:stub_swagger.json
 
 [collate_file]
 swagger_json:stdout*
