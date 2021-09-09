@@ -7,15 +7,3 @@ filename_convention_scheme:standard
 
 # Expanded name to use for application
 full_name:quizz
-
-[run_dependent_text]
-#stderr:\"unix_time\":[^,]*,{REPLACE UNIXTIME}
-#stderr:\"time\":[^,]*,[^,]*,{REPLACE HUMTIME}
-
-[collate_file]
-quizz_log:quizz.log
-[end]
-
-[collate_script]
-quizz_log:${TEXTTEST_HOME}/puzzle1/collate_json_log.py
-[end]
