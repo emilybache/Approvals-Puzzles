@@ -9,16 +9,16 @@ def init_logging():
     logger = logging.getLogger(__file__)
     logger.setLevel(logging.INFO)
 
-    # create a formatter that creates a single line of json with a comma at the end
+    # create a formatter that creates a single line of json
     formatter = logging.Formatter(
         (
             '{"unix_time":%(created)s, "time":"%(asctime)s", "module":"%(name)s",'
-            ' "level":"%(levelname)s", "msg":"%(message)s"},'
+            ' "level":"%(levelname)s", "msg":"%(message)s"}'
         )
     )
 
     # create a channel for handling the logger and set its format
-    ch = logging.StreamHandler()
+    ch = logging.FileHandler("quizz.log")
     ch.setFormatter(formatter)
 
     # connect the logger to the channel
