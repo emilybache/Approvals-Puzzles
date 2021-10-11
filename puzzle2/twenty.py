@@ -6,6 +6,7 @@
 import json
 import os
 import time
+import sys
 
 happy_to_play = True
 while happy_to_play:
@@ -19,17 +20,17 @@ while happy_to_play:
     print(" ")
     q = []
     # Grab database of questions from disk - or start a new one
-    try:
-        with open('20q.txt') as data_file:
-#             q = byteify(json.load(data_file))
-             q = json.load(data_file)
-
-        pass
-    except IOError as e:
-        print("No saved data 20q.txt file found, so creating a new database...\n")
-        # animals names in the database are all lower case, and 
-        # don't include "an" or "a" 
+    if not os.path.exists("20q.txt") or "--new" in sys.argv:
+        print("Creating a new database...\n")
+        # animals names in the database are all lower case, and
+        # don't include "an" or "a"
         q.append(["Does it quack?", "duck", "pig"])
+        with open('20q.txt', 'w') as outfile:
+            json.dump(q, outfile)
+    else:
+        print("Using existing database 20q.txt\n")
+        with open('20q.txt') as data_file:
+             q = json.load(data_file)
 
     # Inits
     curr = 0
