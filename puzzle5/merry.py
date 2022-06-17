@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 #
 # Python script to wish Merry Christmas using turtle.
 # Author - Anurag Rana

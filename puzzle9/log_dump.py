@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import os
 import sys
@@ -20,7 +20,8 @@ def main():
     with tarfile.open("logs.tar.gz", "w:gz") as f:
         for p in paths_to_collect:
             if os.path.exists(p):
-                print("adding file ", p, file=sys.stderr)
+                normalized_path = str(p).replace("\\", "/")
+                print("adding file ", normalized_path, file=sys.stderr)
                 f.add(p)
 
 

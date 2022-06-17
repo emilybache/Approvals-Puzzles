@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import random
 import logging
@@ -6,7 +6,7 @@ import logging
 
 def init_logging():
     # create logger on the current module and set its level
-    logger = logging.getLogger(__file__)
+    logger = logging.getLogger("quizz")
     logger.setLevel(logging.INFO)
 
     # create a formatter that creates a single line of json
