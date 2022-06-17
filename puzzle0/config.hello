@@ -1,5 +1,6 @@
 # Full path to the System Under Test (or Java Main Class name)
-executable:${TEXTTEST_HOME}/puzzle0/puzzle0.sh
+executable:${TEXTTEST_HOME}/puzzle0/hello.py
+interpreter:python
 
 # Naming scheme to use for files for stdin,stdout and stderr
 filename_convention_scheme:standard
