@@ -15,8 +15,9 @@ dump:logs.tar.gz
 [end]
 
 [collate_script]
-dump:${TEXTTEST_HOME}/puzzle9/read_dump.py
+dump:python ${TEXTTEST_HOME}/puzzle9/read_dump.py
 [end]
 
 [run_dependent_text]
 dump:{INTERNAL writedir}
+dump:43\d{REPLACE 436}

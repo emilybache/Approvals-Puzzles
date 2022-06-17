@@ -14,5 +14,5 @@ quizz_log:quizz.log
 [end]
 
 [collate_script]
-quizz_log:${TEXTTEST_HOME}/puzzle1/collate_json_log.py
+quizz_log:python ${TEXTTEST_HOME}/puzzle1/collate_json_log.py
 [end]
