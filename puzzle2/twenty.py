@@ -8,12 +8,15 @@ import os
 import time
 import sys
 
+def clear():
+    os.system('cls' if os.name=='nt' else 'clear')
+
 happy_to_play = True
 while happy_to_play:
     #
     # Start a new game...
     #
-    os.system('clear')
+    clear()
     print("\n\n\n\n")
     print( "This is a little game. I will guess the creature that")
     print("you are thinking of in 20 questions or less!")
