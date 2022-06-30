@@ -6,29 +6,34 @@
 import json
 import os
 import time
+import sys
+
+def clear():
+    os.system('cls' if os.name=='nt' else 'clear')
 
 happy_to_play = True
 while happy_to_play:
     #
     # Start a new game...
     #
+    clear()
     print("\n\n\n\n")
     print( "This is a little game. I will guess the creature that")
     print("you are thinking of in 20 questions or less!")
     print(" ")
     q = []
     # Grab database of questions from disk - or start a new one
-    try:
-        with open('20q.txt') as data_file:
-#             q = byteify(json.load(data_file))
-             q = json.load(data_file)
-
-        pass
-    except IOError as e:
-        print("No saved data 20q.txt file found, so creating a new database...\n")
-        # animals names in the database are all lower case, and 
-        # don't include "an" or "a" 
+    if not os.path.exists("20q.txt") or "--new" in sys.argv:
+        print("Creating a new database...\n")
+        # animals names in the database are all lower case, and
+        # don't include "an" or "a"
         q.append(["Does it quack?", "duck", "pig"])
+        with open('20q.txt', 'w') as outfile:
+            json.dump(q, outfile)
+    else:
+        print("Using existing database 20q.txt\n")
+        with open('20q.txt') as data_file:
+             q = json.load(data_file)
 
     # Inits
     curr = 0
