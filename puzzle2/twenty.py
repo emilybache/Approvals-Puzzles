@@ -24,7 +24,8 @@ while happy_to_play:
     q = []
     # Grab database of questions from disk - or start a new one
     if not os.path.exists("20q.txt") or "--new" in sys.argv:
-        print("Creating a new database...\n")
+        print("No saved data 20q.txt file found, so creating a new database...")
+        print()
         # animals names in the database are all lower case, and
         # don't include "an" or "a"
         q.append(["Does it quack?", "duck", "pig"])

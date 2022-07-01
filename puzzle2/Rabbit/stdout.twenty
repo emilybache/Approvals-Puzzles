@@ -1,4 +1,4 @@
-
+
 
 
 
@@ -6,6 +6,8 @@
 This is a little game. I will guess the creature that
 you are thinking of in 20 questions or less!
  
+Using existing database 20q.txt
+
 Does it quack?  - answer Y or N
 Is it furry?  - answer Y or N
 Does it bark?  - answer Y or N

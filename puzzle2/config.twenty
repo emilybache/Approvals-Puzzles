@@ -12,3 +12,6 @@ copy_test_path:20q.txt
 
 [collate_file]
 db_at_the_end:20q.txt
+
+[run_dependent_text]
+stdout:^\s+$
